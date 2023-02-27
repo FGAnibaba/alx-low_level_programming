@@ -1,17 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void 0-reset_to_98.c;
-void 1-swap.c;
-void 2-strlen.c;
-void 3-puts.c;
-void 4-print_rev.c;
-void 5-rev_string.c;
-void 6-puts2.c;
-void 7-puts_half.c;
-void 8-print_array.c;
-void 9-strcpy.c;
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
 
-int -putchar(char c);
+int _putchar(char c);
 
 #endif
