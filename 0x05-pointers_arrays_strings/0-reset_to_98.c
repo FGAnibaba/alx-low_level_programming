@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * 0-reset_to_98.c
+ * reset_to_98-update the value of a var using pointers
  * @n: int to update
  * Return: 0
  */
