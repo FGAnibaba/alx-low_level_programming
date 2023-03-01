@@ -5,7 +5,7 @@
  * Return: the length of the string
  */
 
-void _puts(char *str);
+void _puts(char *str)
 {
 	int a = 0;
 	while (str[a] != '\0')

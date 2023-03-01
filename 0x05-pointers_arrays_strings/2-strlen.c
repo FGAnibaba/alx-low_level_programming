@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int a = 0; /*start tge counter from 0*/
 	for(; *s++;)
